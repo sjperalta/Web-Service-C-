@@ -8320,26 +8320,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\serpe\\.nuget\\packages\\": {}
+    "/Users/sergioperalta/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\serpe\\Documents\\Davivienda\\TodoApiRestfull\\TodoApiRestfull.csproj",
+      "projectUniqueName": "/Users/sergioperalta/Documents/Source/Web-Service-C-sharp/Ejercicio 2/TodoApiRestfull/TodoApiRestfull.csproj",
       "projectName": "TodoApiRestfull",
-      "projectPath": "C:\\Users\\serpe\\Documents\\Davivienda\\TodoApiRestfull\\TodoApiRestfull.csproj",
-      "packagesPath": "C:\\Users\\serpe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\serpe\\Documents\\Davivienda\\TodoApiRestfull\\obj\\",
+      "projectPath": "/Users/sergioperalta/Documents/Source/Web-Service-C-sharp/Ejercicio 2/TodoApiRestfull/TodoApiRestfull.csproj",
+      "packagesPath": "/Users/sergioperalta/.nuget/packages/",
+      "outputPath": "/Users/sergioperalta/Documents/Source/Web-Service-C-sharp/Ejercicio 2/TodoApiRestfull/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\serpe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/sergioperalta/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8415,7 +8413,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
