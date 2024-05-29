@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\build\TodoApiRestfull.props" />
+  <Import Project="../build/TodoApiRestfull.props" />
 </Project>

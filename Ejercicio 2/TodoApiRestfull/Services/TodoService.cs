@@ -21,8 +21,10 @@ namespace TodoApiRestfull.Services
 
         public async Task<TodoItem> GetTodoItemAsync(long id)
         {
-            var result = await _context.TodoItems.FindAsync(id);
-            
+            var result = await _context.TodoItems
+                .Where(x => x.Id == id)
+                .FirstAsync();
+
             if(result == null)
             {
                 throw new Exception("Esto es un error porque no existe el registro en la base de datos");

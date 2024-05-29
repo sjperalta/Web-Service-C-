@@ -10,6 +10,8 @@ namespace TodoApiRestfull.Data
         {
         }
 
-        public DbSet<TodoItem> TodoItems { get; set; }
+        public TodoContext(){}
+
+        public virtual DbSet<TodoItem> TodoItems { get; set; }
     }
 }
